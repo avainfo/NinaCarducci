@@ -68,7 +68,9 @@ body {
 }
 
 .picture img {
+	aspect-ratio: auto 730 / 728;
 	width: 100%;
+	height: auto;
 
 }
 #about-me {
@@ -126,15 +128,6 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
-}
-.mg-prev, .mg-next {
-	width: 30px;
-	height: 30px;
-	border-radius: 00%;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	font-size: 24px;
 }
 
 .quote {
